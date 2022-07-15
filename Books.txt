@@ -1,0 +1,11 @@
+Physics-Shah Jahan Topon-Physics-300.00-23
+Java-Jonkar Mahbub-Coding-250.00-15
+Python-Sumit Sarkar-Coding-225.00-7
+Biology-Gazi Azmol-Biology-200.00-10
+Legendborn-Tracey Deonn-Thriller-650.00-5
+Elon Musk-Ashlee vance-Biograghy-875.00-5
+Eat That Frog-Brian Tracy-Motivational-270.00-5
+400 Days-Cheten Bhagat-Novel-450.00-8
+Spam Nation-Brian  Krebs-CyberSecurity-1400-10
+Herry Portter-J.K. Rowling-Novel Series-800.00-12
+Advanced Calculas-Leonard F. Richardson-Mathmatical-1985.00-15
