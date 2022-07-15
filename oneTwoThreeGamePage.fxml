@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="404.0" prefWidth="674.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="education.learning.system.OneTwoThreeGamePageController">
+   <children>
+      <ImageView fitHeight="434.0" fitWidth="720.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/oneTwoBc.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="342.0" text="1 2 3 Game" textFill="#0235ff">
+         <font>
+            <Font name="Party LET Plain" size="57.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="5.0" layoutY="121.0" prefHeight="102.0" prefWidth="67.0" text="1">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="56.0" />
+         </font>
+      </Label>
+      <TextField fx:id="twoTf" alignment="CENTER" layoutX="94.0" layoutY="97.0" prefHeight="104.0" prefWidth="151.0" style="-fx-background-color: transparent transparent transparent transparent transparent transparent transparent transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: blue;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="56.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="231.0" layoutY="114.0" prefHeight="102.0" prefWidth="95.0" text="3" textFill="#0500ff">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="56.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fourTf" alignment="CENTER" layoutX="315.0" layoutY="97.0" prefHeight="104.0" prefWidth="163.0" style="-fx-background-color: transparent transparent transparent transparent transparent transparent transparent transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: yellow;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="56.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="474.0" layoutY="114.0" prefHeight="102.0" prefWidth="95.0" text="5" textFill="#03030d">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="56.0" />
+         </font>
+      </Label>
+      <TextField fx:id="sixTf" alignment="CENTER" layoutX="555.0" layoutY="97.0" prefHeight="104.0" prefWidth="151.0" style="-fx-background-color: transparent transparent transparent transparent transparent transparent transparent transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: blue;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="56.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="178.0" layoutY="261.0" prefHeight="102.0" prefWidth="95.0" text="7">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="56.0" />
+         </font>
+      </Label>
+      <TextField fx:id="eightTf" alignment="CENTER" layoutX="258.0" layoutY="238.0" prefHeight="104.0" prefWidth="151.0" style="-fx-background-color: transparent transparent transparent transparent transparent transparent transparent transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: yellow;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="56.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="387.0" layoutY="255.0" prefHeight="102.0" prefWidth="95.0" text="9" textFill="#000090">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="56.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tenTf" alignment="CENTER" layoutX="490.0" layoutY="238.0" prefHeight="104.0" prefWidth="163.0" style="-fx-background-color: transparent transparent transparent transparent transparent transparent transparent transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: blue;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="56.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </TextField>
+      <Button layoutX="50.0" layoutY="379.0" mnemonicParsing="false" onAction="#backBtn" style="-fx-background-color: transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent;" text="Back">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="342.0" layoutY="379.0" mnemonicParsing="false" onAction="#resultBtn" style="-fx-background-color: transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent;" text="Result">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="612.0" layoutY="379.0" mnemonicParsing="false" onAction="#menuBtn" style="-fx-background-color: transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent;" text="Menu">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="worningDisplay" alignment="CENTER" layoutX="31.0" layoutY="54.0" prefHeight="27.0" prefWidth="300.0" textFill="#1500ff">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="670.0" prefWidth="600.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="education.learning.system.RhymesPageController">
+   <children>
+      <ImageView fitHeight="211.0" fitWidth="408.0" layoutX="126.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../KidsAllPic/rhymesLogo.jpg" />
+         </image>
+      </ImageView>
+      <GridPane layoutX="43.0" layoutY="243.0" prefHeight="365.0" prefWidth="511.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" onAction="#RainRainBtn" prefHeight="70.0" prefWidth="255.0" style="-fx-background-color: red;" text="Rain, Rain, Go Away " GridPane.rowIndex="4">
+               <font>
+                  <Font name="Cooper Black" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#MyMotherBtn" prefHeight="70.0" prefWidth="255.0" style="-fx-background-color: #4D4049;" text="My Mommy" textFill="#fff0f0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Cooper Black" size="22.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#DingDongBtn" prefHeight="70.0" prefWidth="255.0" style="-fx-background-color: red;" text="Ding Dong Bell" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Cooper Black" size="22.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#HumtyDumtyBtn" prefHeight="70.0" prefWidth="255.0" style="-fx-background-color: #4D4049;" text="Humpty Dumpty" textFill="#fff2f2" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Cooper Black" size="22.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#prayerBtn" prefHeight="70.0" prefWidth="255.0" style="-fx-background-color: red;" text="Pussy Cat" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Cooper Black" size="22.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#buckleMyShowBtn" prefHeight="70.0" prefWidth="255.0" style="-fx-background-color: #4D4049;" text="Buckle My Shoe " textFill="#fff0f0" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Cooper Black" size="22.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#BlackSheepBtn" prefHeight="70.0" prefWidth="255.0" style="-fx-background-color: red;" text="Baa Baa Black Sheep" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Cooper Black" size="21.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#JohnyBtn" prefHeight="70.0" prefWidth="255.0" style="-fx-background-color: #4D4049;" text="Johny Johny " textFill="#f8e6e6" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Cooper Black" size="22.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#BismillahBtn" prefHeight="70.0" prefWidth="255.0" style="-fx-background-color: #4D4049;" text="Bismillah  Bismillah " textFill="WHITE" GridPane.columnIndex="1">
+               <font>
+                  <Font name="Cooper Black" size="21.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#TwinkleBtn" prefHeight="70.0" prefWidth="255.0" style="-fx-background-color: red;" text="Twinkle Twinkle ">
+               <font>
+                  <Font name="Cooper Black" size="22.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </GridPane>
+      <Button layoutX="43.0" layoutY="623.0" mnemonicParsing="false" onAction="#backBtn" style="-fx-background-color: black;" text="Back" textFill="#fffafa">
+         <font>
+            <Font name="Cooper Black" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="505.0" layoutY="623.0" mnemonicParsing="false" onAction="#exitBtn" style="-fx-background-color: black;" text="Exit" textFill="#fffafa">
+         <font>
+            <Font name="Cooper Black" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

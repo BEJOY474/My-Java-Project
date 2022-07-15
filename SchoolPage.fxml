@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="556.0" prefWidth="763.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="education.learning.system.SchoolPageController">
+   <children>
+      <ChoiceBox fx:id="ChoiceBox" layoutX="219.0" layoutY="214.0" prefHeight="26.0" prefWidth="206.0" style="-fx-background-color: transparent; -fx-border-color: #8299A7 #8299A7; -fx-border-width: 0px 0px 2px 0px;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ChoiceBox>
+      <TextField fx:id="subjectTf" layoutX="220.0" layoutY="300.0" prefHeight="55.0" prefWidth="206.0" promptText="Subject" style="-fx-background-color: transparent; -fx-border-color: #8299A7 #8299A7; -fx-border-width: 0px 0px 2px 0px;">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <VBox layoutX="85.0" layoutY="370.0" prefHeight="45.0" prefWidth="82.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="19.0" prefWidth="82.0" text="Educational">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="19.0" prefWidth="82.0" text="Background">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <TextField fx:id="EduBackground" layoutX="219.0" layoutY="359.0" prefHeight="69.0" prefWidth="206.0" promptText="Educational Background" style="-fx-background-color: transparent; -fx-border-color: #8299A7 #8299A7; -fx-border-width: 0px 0px 2px 0px;">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Button layoutX="273.0" layoutY="511.0" mnemonicParsing="false" onAction="#uplodeBtn" prefHeight="31.0" prefWidth="100.0" style="-fx-background-color: #0598ff #0598ff #0598ff #0598ff;" text="post" textFill="#fffefe">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField fx:id="anyWord" layoutX="219.0" layoutY="432.0" prefHeight="69.0" prefWidth="206.0" promptText="Comment" style="-fx-background-color: transparent; -fx-border-color: #8299A7 #8299A7; -fx-border-width: 0px 0px 2px 0px;" />
+      <Label fx:id="fullNameTF" layoutX="90.0" layoutY="129.0" text="Full Name ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameTf" layoutX="219.0" layoutY="129.0" prefHeight="26.0" prefWidth="206.0" promptText="Name" style="-fx-background-color: transparent; -fx-border-color: #8299A7 #8299A7; -fx-border-width: 0px 0px 2px 0px;" />
+      <Label layoutX="90.0" layoutY="173.0" text="Phone Number">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="phoneNumTF" layoutX="219.0" layoutY="174.0" prefHeight="26.0" prefWidth="206.0" promptText="Phone Number" style="-fx-background-color: transparent; -fx-border-color: #8299A7 #8299A7; -fx-border-width: 0px 0px 2px 0px;" />
+      <Label alignment="CENTER" layoutX="77.0" layoutY="446.0" prefHeight="35.0" prefWidth="88.0" text="Comment">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="oldPost" layoutX="452.0" layoutY="128.0" prefHeight="373.0" prefWidth="310.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextArea>
+      <TextField fx:id="classTf" layoutX="219.0" layoutY="250.0" prefHeight="45.0" prefWidth="206.0" promptText="1,2,3,4,5,6,7,8,9,10,11,12?" style="-fx-background-color: transparent; -fx-border-color: #8299A7 #8299A7; -fx-border-width: 0px 0px 2px 0px;">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <HBox alignment="CENTER" layoutX="-1.0" prefHeight="111.0" prefWidth="769.0" style="-fx-background-color: #0598ff #0598ff;">
+         <children>
+            <Label prefHeight="25.0" prefWidth="92.0" text="New Post" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="150.0" />
+               </HBox.margin>
+            </Label>
+            <Label prefHeight="26.0" prefWidth="116.0" text="Old Post" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="183.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <Label alignment="CENTER" layoutX="80.0" layoutY="210.0" prefHeight="31.0" prefWidth="69.0" text="Group">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="72.0" layoutY="308.0" prefHeight="31.0" prefWidth="100.0" text="Subject">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="83.0" layoutY="256.0" prefHeight="31.0" prefWidth="57.0" text="Class">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="31.0" fitWidth="28.0" layoutX="44.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/name.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="28.0" layoutX="44.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/mobile.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="28.0" layoutX="44.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/grpSub.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="28.0" layoutX="44.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/class.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="28.0" layoutX="44.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/subject.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="47.0" layoutX="34.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/edBc.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="28.0" layoutX="44.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/cmnt.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

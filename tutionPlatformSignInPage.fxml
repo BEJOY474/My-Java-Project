@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="651.0" prefWidth="449.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="education.learning.system.TutionPlatformSignInPageController">
+   <children>
+      <VBox layoutX="72.0" layoutY="138.0" prefHeight="406.0" prefWidth="341.0" spacing="24.0">
+         <children>
+            <TextField fx:id="FirstName" promptText="First Name" style="-fx-background-color: transparent; -fx-border-color: #8299A7; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="LastName" promptText="Last Name" style="-fx-background-color: transparent; -fx-border-color: #8299A7; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="AddressTf" promptText="Present Address" style="-fx-background-color: transparent; -fx-border-color: #8299A7; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="EmailTf" promptText="******@gmail.com" style="-fx-background-color: transparent; -fx-border-color: #8299A7; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="SchoolTf" promptText="School" style="-fx-background-color: transparent; -fx-border-color: #8299A7; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="CollegeTf" promptText="College" style="-fx-background-color: transparent; -fx-border-color: #8299A7; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="UniversityTf" promptText="University" style="-fx-background-color: transparent; -fx-border-color: #8299A7; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="PasswordTF" prefHeight="22.0" prefWidth="341.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #8299A7; -fx-border-width: 0px 0px 2px 0px;" />
+            <PasswordField fx:id="confirmPassTf" promptText="Confirm Password" style="-fx-background-color: transparent; -fx-border-color: #8299A7; -fx-border-width: 0px 0px 2px 0px;" />
+         </children>
+      </VBox>
+      <Button alignment="CENTER" layoutX="197.0" layoutY="611.0" mnemonicParsing="false" onAction="#saveBtn" prefHeight="26.0" prefWidth="76.0" style="-fx-background-color: black;" text="Save" textFill="#fcfcfc">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button alignment="CENTER" layoutX="37.0" layoutY="611.0" mnemonicParsing="false" onAction="#backBtn" style="-fx-background-color: black;" text="Back" textFill="#fcfcfc">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button alignment="CENTER" layoutX="375.0" layoutY="611.0" mnemonicParsing="false" onAction="#exitBtn" style="-fx-background-color: black;" text="Exit" textFill="#fcfcfc">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="display2" alignment="CENTER" layoutX="40.0" layoutY="113.0" prefHeight="26.0" prefWidth="373.0" textFill="RED">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Text layoutX="171.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registration" wrappingWidth="142.21630859375">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="36.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/name.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="26.0" layoutX="36.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/name.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="36.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/address.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="26.0" layoutX="37.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/mail2.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="36.0" layoutY="502.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/key.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="37.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/cnPass.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="26.0" layoutX="37.0" layoutY="348.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/school1.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="26.0" layoutX="37.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/college.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="26.0" layoutX="37.0" layoutY="449.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/university.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="73.0" fitWidth="193.0" layoutX="194.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/registration.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.media.MediaView?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="484.0" prefWidth="623.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="education.learning.system.TwinkleTwinkleController">
+   <children>
+      <MediaView fx:id="mediaView" fitHeight="350.0" fitWidth="635.0" />
+      <Button layoutX="7.0" layoutY="444.0" mnemonicParsing="false" onAction="#playBtn" style="-fx-background-color: red;" text="Play">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="296.0" layoutY="444.0" mnemonicParsing="false" onAction="#pauseBtn" style="-fx-background-color: red;" text="Pause">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="567.0" layoutY="444.0" mnemonicParsing="false" onAction="#closeBtn" style="-fx-background-color: red;" text="Close">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <ImageView fitHeight="32.0" fitWidth="27.0" layoutX="70.0" layoutY="444.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/images.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="volumeSlider" layoutX="105.0" layoutY="450.0" max="80.0" prefHeight="16.0" prefWidth="150.0" value="30.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Slider>
+      <Slider fx:id="timeSlider" layoutX="7.0" layoutY="400.0" max="147.0" prefHeight="16.0" prefWidth="615.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Slider>
+   </children>
+</AnchorPane>

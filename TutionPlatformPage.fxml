@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="521.0" prefWidth="815.0" style="-fx-background-color: #FAF5EF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="education.learning.system.TutionPlatformPageController">
+   <children>
+      <VBox alignment="CENTER" layoutY="-3.0" prefHeight="531.0" prefWidth="375.0" style="-fx-background-color: #0598ff #0598ff;">
+         <children>
+            <ImageView fitHeight="536.0" fitWidth="372.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../AllLogo/Tution.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <Text fill="#151617" layoutX="453.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tuition Platform">
+         <font>
+            <Font name="Bell MT" size="39.0" />
+         </font>
+      </Text>
+      <VBox layoutX="399.0" layoutY="216.0" prefHeight="97.0" prefWidth="236.0" spacing="10.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#teacherBtn" prefHeight="40.0" prefWidth="273.0" style="-fx-background-radius: 10; -fx-background-color: #0598ff #0598ff;" text="Teacher" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT Bold" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#studentBtn" prefHeight="40.0" prefWidth="273.0" style="-fx-background-radius: 10; -fx-background-color: #0598ff #0598ff;" text="Student" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT Bold" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </VBox>
+      <Button layoutX="385.0" layoutY="493.0" mnemonicParsing="false" onAction="#backBtn" style="-fx-background-color: #0598ff #0598ff;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="749.0" layoutY="493.0" mnemonicParsing="false" onAction="#exitBtn" prefHeight="25.0" prefWidth="50.0" style="-fx-background-color: #0598ff #0598ff;" text="Exit" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="138.0" fitWidth="154.0" layoutX="647.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/Cartoon.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

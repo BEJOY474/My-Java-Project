@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="655.0" prefWidth="472.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="education.learning.system.OneTwoThreeGUIController">
+   <children>
+      <ImageView fitHeight="160.0" fitWidth="236.0" layoutX="128.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../KidsAllPic/pic123.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="95.0" layoutX="360.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../KidsAllPic/bt.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="120.0" layoutX="4.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../KidsAllPic/mahsa-bear.jpeg" />
+         </image>
+      </ImageView>
+      <GridPane hgap="5.0" layoutX="40.0" layoutY="254.0" prefHeight="347.0" prefWidth="390.0" vgap="9.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button maxHeight="25.0" mnemonicParsing="false" onAction="#tenBtn" prefHeight="65.0" prefWidth="198.0" style="-fx-background-color: blue;" text="10" textFill="#bbff00" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Cooper Black" size="37.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button maxHeight="25.0" mnemonicParsing="false" onAction="#fiveBtn" prefHeight="65.0" prefWidth="198.0" style="-fx-background-color: black;" text="5" textFill="WHITE" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Cooper Black" size="37.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button maxHeight="25.0" mnemonicParsing="false" onAction="#nineBtn" prefHeight="65.0" prefWidth="198.0" style="-fx-background-color: orange;" text="9" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Cooper Black" size="37.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button maxHeight="25.0" mnemonicParsing="false" onAction="#fourBtn" prefHeight="65.0" prefWidth="198.0" style="-fx-background-color: green;" text="4" textFill="#2c2c2c" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Cooper Black" size="37.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button maxHeight="25.0" mnemonicParsing="false" onAction="#eightBtn" prefHeight="65.0" prefWidth="198.0" style="-fx-background-color: yellow;" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Cooper Black" size="37.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button maxHeight="25.0" mnemonicParsing="false" onAction="#threeBtn" prefHeight="65.0" prefWidth="198.0" style="-fx-background-color: orange;" text="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Cooper Black" size="37.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button maxHeight="25.0" mnemonicParsing="false" onAction="#sevenBtn" prefHeight="65.0" prefWidth="198.0" style="-fx-background-color: green;" text="7" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Cooper Black" size="37.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button maxHeight="25.0" mnemonicParsing="false" onAction="#sixBtn" prefHeight="65.0" prefWidth="198.0" style="-fx-background-color: black;" text="6" textFill="#fff1f1" GridPane.columnIndex="1">
+               <font>
+                  <Font name="Cooper Black" size="37.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button maxHeight="77.0" mnemonicParsing="false" onAction="#oneBtn" prefHeight="77.0" prefWidth="195.0" style="-fx-background-color: blue;" text="1" textFill="#b4ff04">
+               <font>
+                  <Font name="Cooper Black" size="37.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button maxHeight="91.0" mnemonicParsing="false" onAction="#twoBtn" prefHeight="57.0" prefWidth="193.0" style="-fx-background-color: red;" text="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Cooper Black" size="37.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </GridPane>
+      <Label fx:id="displayLabel" alignment="CENTER" layoutX="27.0" layoutY="161.0" prefHeight="84.0" prefWidth="417.0">
+         <font>
+            <Font name="Cooper Black" size="37.0" />
+         </font>
+      </Label>
+      <Button layoutX="40.0" layoutY="618.0" mnemonicParsing="false" onAction="#backBtn" style="-fx-background-color: orange;" text="Back">
+         <font>
+            <Font name="Cooper Black" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="382.0" layoutY="618.0" mnemonicParsing="false" onAction="#exitBtn" style="-fx-background-color: orange;" text="Exit">
+         <font>
+            <Font name="Cooper Black" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="181.0" layoutY="618.0" mnemonicParsing="false" onAction="#stopBtn" style="-fx-background-color: orange orange; -fx-border-radius: 3; -fx-background-radius: 3;" text="Mute">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="244.0" layoutY="618.0" mnemonicParsing="false" onAction="#playBtn" style="-fx-background-color: orange orange; -fx-border-radius: 3; -fx-background-radius: 3;" text="Play">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
