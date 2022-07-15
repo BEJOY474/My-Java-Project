@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="697.0" prefWidth="1061.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="education.learning.system.BirdsPageController">
+   <children>
+      <Label alignment="CENTER" layoutX="444.0" text="Birds" textFill="RED">
+         <font>
+            <Font name="Cooper Black" size="66.0" />
+         </font>
+      </Label>
+      <Label fx:id="display" alignment="CENTER" layoutX="349.0" layoutY="91.0" prefHeight="46.0" prefWidth="381.0">
+         <font>
+            <Font name="Cooper Black" size="37.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="126.0" fitWidth="134.0" layoutX="14.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../BirdPic/crow1.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="14.0" layoutY="287.0" mnemonicParsing="false" onAction="#crowBtn" prefHeight="35.0" prefWidth="70.0" style="-fx-background-color: #fff;" text="Crow">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="135.0" fitWidth="204.0" layoutX="170.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../BirdPic/Dove.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="134.0" fitWidth="116.0" layoutX="324.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../BirdPic/duck.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="333.0" layoutY="287.0" mnemonicParsing="false" onAction="#duckBtn" prefHeight="35.0" prefWidth="70.0" style="-fx-background-color: #fff;" text="Duck">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="176.0" layoutY="287.0" mnemonicParsing="false" onAction="#doveBtn" prefHeight="35.0" prefWidth="70.0" style="-fx-background-color: #fff;" text="Dove">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="485.0" layoutY="287.0" mnemonicParsing="false" onAction="#eaglekBtn" prefHeight="35.0" prefWidth="70.0" style="-fx-background-color: #fff;" text="Eagle">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="135.0" fitWidth="181.0" layoutX="455.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../BirdPic/eagle.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="135.0" fitWidth="190.0" layoutX="612.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../BirdPic/doyel.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="653.0" layoutY="287.0" mnemonicParsing="false" onAction="#MagpieBtn" prefHeight="35.0" prefWidth="89.0" style="-fx-background-color: #fff;" text="Magpie ">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="119.0" fitWidth="159.0" layoutX="24.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../BirdPic/Humming-Bird.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="2.0" layoutY="436.0" mnemonicParsing="false" onAction="#hummBtn" prefHeight="35.0" prefWidth="142.0" style="-fx-background-color: #fff;" text="Humming-Bird">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="119.0" fitWidth="212.0" layoutX="211.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../BirdPic/Parrot.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="207.0" layoutY="436.0" mnemonicParsing="false" onAction="#parrotBtn" prefHeight="35.0" prefWidth="70.0" style="-fx-background-color: #fff;" text="Parrot">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="99.0" fitWidth="142.0" layoutX="336.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../BirdPic/Sparrow.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="336.0" layoutY="436.0" mnemonicParsing="false" onAction="#sparrowBtn" prefHeight="35.0" prefWidth="109.0" style="-fx-background-color: #fff;" text="Sparrow">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="119.0" fitWidth="105.0" layoutX="910.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../BirdPic/Kookaburra.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="899.0" layoutY="287.0" mnemonicParsing="false" onAction="#kookaburraBtn" prefHeight="17.0" prefWidth="116.0" style="-fx-background-color: #fff;" text="Kookaburra">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="157.0" fitWidth="109.0" layoutX="797.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../BirdPic/Penguin%20.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="778.0" layoutY="287.0" mnemonicParsing="false" onAction="#penguinBtn" prefHeight="35.0" prefWidth="98.0" style="-fx-background-color: #fff;" text="Penguin ">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="89.0" fitWidth="169.0" layoutX="877.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../BirdPic/Owl.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="900.0" layoutY="435.0" mnemonicParsing="false" onAction="#owlBtn" prefHeight="35.0" prefWidth="70.0" style="-fx-background-color: #fff;" text="Owl">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="24.0" layoutY="489.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../BirdPic/Peacock1.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="32.0" layoutY="596.0" mnemonicParsing="false" onAction="#peocockBtn" prefHeight="35.0" prefWidth="98.0" style="-fx-background-color: #fff;" text="Peacock">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="110.0" fitWidth="198.0" layoutX="766.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../BirdPic/King-Fisher.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="744.0" layoutY="436.0" mnemonicParsing="false" onAction="#kingFBtn" prefHeight="35.0" prefWidth="116.0" style="-fx-background-color: #fff;" text="King-Fisher">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="116.0" fitWidth="89.0" layoutX="642.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../BirdPic/Heron.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="629.0" layoutY="436.0" mnemonicParsing="false" onAction="#heronBtn" prefHeight="35.0" prefWidth="78.0" style="-fx-background-color: #fff;" text="Heron">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="134.0" fitWidth="238.0" layoutX="487.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../BirdPic/Robin.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="496.0" layoutY="436.0" mnemonicParsing="false" onAction="#robinBtn" prefHeight="35.0" prefWidth="78.0" style="-fx-background-color: #fff;" text="Robin">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="992.0" layoutY="655.0" mnemonicParsing="false" onAction="#ExitBtn" style="-fx-background-color: #fff;" text="Exit">
+         <font>
+            <Font name="Cooper Black" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="14.0" layoutY="655.0" mnemonicParsing="false" onAction="#backBtn" style="-fx-background-color: #fff;" text="Back">
+         <font>
+            <Font name="Cooper Black" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="99.0" fitWidth="142.0" layoutX="232.0" layoutY="497.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../BirdPic/nightingale.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="226.0" layoutY="599.0" mnemonicParsing="false" onAction="#NightingaleBtn" prefHeight="35.0" prefWidth="116.0" style="-fx-background-color: #fff;" text="Nightingale">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="338.0" layoutY="439.0" mnemonicParsing="false" onAction="#sparrowBtn" prefHeight="35.0" prefWidth="89.0" style="-fx-background-color: #fff;" text="Sparrow">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="99.0" fitWidth="142.0" layoutX="387.0" layoutY="497.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../BirdPic/Martin.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="380.0" layoutY="596.0" mnemonicParsing="false" onAction="#MartinBtn" prefHeight="35.0" prefWidth="89.0" style="-fx-background-color: #fff;" text="Martin">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="89.0" fitWidth="169.0" layoutX="872.0" layoutY="500.0" onDragDetected="#SkylarkBtn" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../BirdPic/skylark.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="900.0" layoutY="594.0" mnemonicParsing="false" onAction="#skyBirdBtn" prefHeight="35.0" prefWidth="89.0" style="-fx-background-color: #fff;" text="Skylark">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="110.0" fitWidth="198.0" layoutX="679.0" layoutY="509.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../BirdPic/Myna.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="719.0" layoutY="599.0" mnemonicParsing="false" onAction="#MynaBtn" prefHeight="35.0" prefWidth="70.0" style="-fx-background-color: #fff;" text="Myna">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="108.0" fitWidth="101.0" layoutX="544.0" layoutY="495.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../BirdPic/Ostrich.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="530.0" layoutY="596.0" mnemonicParsing="false" onAction="#OstrichBtn" prefHeight="35.0" prefWidth="89.0" style="-fx-background-color: #fff;" text="Ostrich">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="73.0" layoutY="286.0" mnemonicParsing="false" onAction="#crowBtn2" style="-fx-background-color: #fff;">
+         <graphic>
+            <Label prefHeight="18.0" prefWidth="10.0" style="-fx-background-color: #fff;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../AllLogo/speaker2.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="238.0" layoutY="286.0" mnemonicParsing="false" onAction="#doveBtn2" style="-fx-background-color: #fff;">
+         <graphic>
+            <Label prefHeight="18.0" prefWidth="10.0" style="-fx-background-color: #fff;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../AllLogo/speaker2.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="391.0" layoutY="286.0" mnemonicParsing="false" onAction="#duckBtn2" style="-fx-background-color: #fff;">
+         <graphic>
+            <Label prefHeight="18.0" prefWidth="10.0" style="-fx-background-color: #fff;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../AllLogo/speaker2.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="545.0" layoutY="286.0" mnemonicParsing="false" onAction="#eagleBtn2" style="-fx-background-color: #fff;">
+         <graphic>
+            <Label prefHeight="18.0" prefWidth="10.0" style="-fx-background-color: #fff;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../AllLogo/speaker2.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="731.0" layoutY="286.0" mnemonicParsing="false" onAction="#magpieBtn2" style="-fx-background-color: #fff;">
+         <graphic>
+            <Label prefHeight="18.0" prefWidth="10.0" style="-fx-background-color: #fff;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../AllLogo/speaker2.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="862.0" layoutY="286.0" mnemonicParsing="false" onAction="#penguinBtn2" style="-fx-background-color: #fff;">
+         <graphic>
+            <Label prefHeight="18.0" prefWidth="10.0" style="-fx-background-color: #fff;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../AllLogo/speaker2.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="1001.0" layoutY="286.0" mnemonicParsing="false" onAction="#kookaburraBtn2" style="-fx-background-color: #fff;">
+         <graphic>
+            <Label prefHeight="18.0" prefWidth="10.0" style="-fx-background-color: #fff;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../AllLogo/speaker2.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="125.0" layoutY="595.0" mnemonicParsing="false" onAction="#peacockBtn2" style="-fx-background-color: #fff;">
+         <graphic>
+            <Label prefHeight="18.0" prefWidth="10.0" style="-fx-background-color: #fff;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../AllLogo/speaker2.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="268.0" layoutY="435.0" mnemonicParsing="false" onAction="#parrotBtn2" style="-fx-background-color: #fff;">
+         <graphic>
+            <Label prefHeight="18.0" prefWidth="10.0" style="-fx-background-color: #fff;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../AllLogo/speaker2.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="417.0" layoutY="439.0" mnemonicParsing="false" onAction="#sparrowBtn2" style="-fx-background-color: #fff;">
+         <graphic>
+            <Label prefHeight="18.0" prefWidth="10.0" style="-fx-background-color: #fff;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../AllLogo/speaker2.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="563.0" layoutY="436.0" mnemonicParsing="false" onAction="#robbinBtn2" style="-fx-background-color: #fff;">
+         <graphic>
+            <Label prefHeight="18.0" prefWidth="10.0" style="-fx-background-color: #fff;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../AllLogo/speaker2.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="697.0" layoutY="436.0" mnemonicParsing="false" onAction="#heronBtn2" style="-fx-background-color: #fff;">
+         <graphic>
+            <Label prefHeight="18.0" prefWidth="10.0" style="-fx-background-color: #fff;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../AllLogo/speaker2.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="849.0" layoutY="435.0" mnemonicParsing="false" onAction="#kingFisherBtn2" style="-fx-background-color: #fff;">
+         <graphic>
+            <Label prefHeight="18.0" prefWidth="10.0" style="-fx-background-color: #fff;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../AllLogo/speaker2.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="962.0" layoutY="433.0" mnemonicParsing="false" onAction="#owlBtn2" style="-fx-background-color: #fff;">
+         <graphic>
+            <Label prefHeight="18.0" prefWidth="10.0" style="-fx-background-color: #fff;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../AllLogo/speaker2.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="137.0" layoutY="433.0" mnemonicParsing="false" onAction="#hurmmingBtn2" style="-fx-background-color: #fff;">
+         <graphic>
+            <Label prefHeight="18.0" prefWidth="10.0" style="-fx-background-color: #fff;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../AllLogo/speaker2.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="333.0" layoutY="597.0" mnemonicParsing="false" onAction="#nightingaleBtn2" style="-fx-background-color: #fff;">
+         <graphic>
+            <Label prefHeight="18.0" prefWidth="10.0" style="-fx-background-color: #fff;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../AllLogo/speaker2.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="455.0" layoutY="595.0" mnemonicParsing="false" onAction="#martinBtn2" style="-fx-background-color: #fff;">
+         <graphic>
+            <Label prefHeight="18.0" prefWidth="10.0" style="-fx-background-color: #fff;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../AllLogo/speaker2.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="606.0" layoutY="595.0" mnemonicParsing="false" onAction="#ostrichBtn2" style="-fx-background-color: #fff;">
+         <graphic>
+            <Label prefHeight="18.0" prefWidth="10.0" style="-fx-background-color: #fff;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../AllLogo/speaker2.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="789.0" layoutY="598.0" mnemonicParsing="false" onAction="#mynaBtn2" style="-fx-background-color: #fff;">
+         <graphic>
+            <Label prefHeight="18.0" prefWidth="10.0" style="-fx-background-color: #fff;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../AllLogo/speaker2.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="978.0" layoutY="595.0" mnemonicParsing="false" onAction="#shylarkBtn2" style="-fx-background-color: #fff;">
+         <graphic>
+            <Label prefHeight="18.0" prefWidth="10.0" style="-fx-background-color: #fff;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../AllLogo/speaker2.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="957.0" layoutY="102.0" mnemonicParsing="false" onAction="#stopBtn" style="-fx-background-color: #ffff;" text="Mute">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="1003.0" layoutY="102.0" mnemonicParsing="false" onAction="#playBtn" style="-fx-background-color: #ffff;" text="Play">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

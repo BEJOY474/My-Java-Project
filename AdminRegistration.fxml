@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="479.0" prefWidth="596.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="education.learning.system.AdminRegistrationController">
+   <children>
+      <Text layoutX="-23.0" layoutY="-22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <ImageView fitHeight="59.0" fitWidth="66.0" layoutX="291.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/registrationYellow%20copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="422.0" fitWidth="596.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/Adminregistration.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="164.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin Registration" wrappingWidth="292.5625">
+         <font>
+            <Font name="Zapfino" size="25.0" />
+         </font>
+      </Text>
+      <VBox layoutX="92.0" layoutY="107.0" prefHeight="200.0" prefWidth="414.0" spacing="4.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="First Name">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font></Text>
+            <TextField fx:id="FirstNametf" style="-fx-background-color: transparent; -fx-border-color: #000000; -fx-border-width: 0px 0px 1px 0px;" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font></Text>
+            <TextField fx:id="LastNametf" style="-fx-background-color: transparent; -fx-border-color: #000000; -fx-border-width: 0px 0px 1px 0px;" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Email Address">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font></Text>
+            <TextField fx:id="Emailtf" style="-fx-background-color: transparent; -fx-border-color: #000000; -fx-border-width: 0px 0px 1px 0px;" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mobile Number">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font></Text>
+            <TextField fx:id="MobileNumtf" style="-fx-background-color: transparent; -fx-border-color: #000000; -fx-border-width: 0px 0px 1px 0px;" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font></Text>
+            <TextField fx:id="Passwordtf" style="-fx-background-color: transparent; -fx-border-color: #000000; -fx-border-width: 0px 0px 1px 0px;" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm Password">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+            </Text>
+            <PasswordField fx:id="cnfmTf" style="-fx-background-color: transparent transparent; -fx-border-color: #000; -fx-border-width: 0px 0px 1px 0px;" />
+         </children>
+      </VBox>
+      <Button layoutX="277.0" layoutY="403.0" mnemonicParsing="false" onAction="#SaveBt" style="-fx-background-color: #FFE800;" text="Save">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="537.0" layoutY="440.0" mnemonicParsing="false" onAction="#ExitBt" style="-fx-background-color: #FFE800;" text="Exit">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="14.0" layoutY="440.0" mnemonicParsing="false" onAction="#BackBt" style="-fx-background-color: #FFE800;" text="Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="display2" alignment="CENTER" layoutX="92.0" layoutY="84.0" prefHeight="17.0" prefWidth="414.0" textFill="RED" />
+   </children>
+</AnchorPane>

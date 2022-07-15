@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="689.0" prefWidth="1037.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="education.learning.system.FruitPageController">
+    <children>
+        <Label alignment="CENTER" layoutX="483.0" text="Fruits">
+            <font>
+                <Font name="Cooper Black" size="50.0" />
+            </font>
+        </Label>
+        <Label fx:id="display" alignment="CENTER" layoutX="490.0" layoutY="67.0">
+            <font>
+                <Font name="Cooper Black" size="34.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="138.0" fitWidth="200.0" layoutX="14.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../FruitsPic/mango.jpg" />
+            </image>
+        </ImageView>
+        <Button layoutX="44.0" layoutY="258.0" mnemonicParsing="false" onAction="#mangoBtn" prefHeight="33.0" prefWidth="113.0" style="-fx-background-color: #fff;" text="Mango">
+            <font>
+                <Font name="Cooper Black" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <ImageView fitHeight="138.0" fitWidth="200.0" layoutX="250.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../FruitsPic/berry.jpg" />
+            </image>
+        </ImageView>
+        <Button layoutX="294.0" layoutY="254.0" mnemonicParsing="false" onAction="#berryBtn" prefHeight="40.0" prefWidth="113.0" style="-fx-background-color: #fff;" text="Berry">
+            <font>
+                <Font name="Cooper Black" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <ImageView fitHeight="138.0" fitWidth="212.0" layoutX="458.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../FruitsPic/kathal.jpg" />
+            </image>
+        </ImageView>
+        <Button layoutX="450.0" layoutY="257.0" mnemonicParsing="false" onAction="#JackfruitBtn" prefHeight="33.0" prefWidth="185.0" style="-fx-background-color: #fff;" text="Jackfruit ">
+            <font>
+                <Font name="Cooper Black" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <ImageView fitHeight="154.0" fitWidth="222.0" layoutX="660.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../FruitsPic/litchi.jpg" />
+            </image>
+        </ImageView>
+        <Button layoutX="674.0" layoutY="257.0" mnemonicParsing="false" onAction="#litchiBtn" prefHeight="33.0" prefWidth="176.0" style="-fx-background-color: #fff;" text="Litchi">
+            <font>
+                <Font name="Cooper Black" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <ImageView fitHeight="138.0" fitWidth="150.0" layoutX="878.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../FruitsPic/kola.jpg" />
+            </image>
+        </ImageView>
+        <Button layoutX="899.0" layoutY="257.0" mnemonicParsing="false" onAction="#BananaBtn" prefHeight="33.0" prefWidth="96.0" style="-fx-background-color: #fff;" text="Banana">
+            <font>
+                <Font name="Cooper Black" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <ImageView fitHeight="138.0" fitWidth="200.0" layoutX="14.0" layoutY="299.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../FruitsPic/apple.jpg" />
+            </image>
+        </ImageView>
+        <Button layoutX="53.0" layoutY="432.0" mnemonicParsing="false" onAction="#AppleBtn" prefHeight="33.0" prefWidth="96.0" style="-fx-background-color: #fff;" text="Apple">
+            <font>
+                <Font name="Cooper Black" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <ImageView fitHeight="138.0" fitWidth="200.0" layoutX="222.0" layoutY="299.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../FruitsPic/amra.jpg" />
+            </image>
+        </ImageView>
+        <Button layoutX="609.0" layoutY="432.0" mnemonicParsing="false" onAction="#dateBtn" prefHeight="33.0" prefWidth="153.0" style="-fx-background-color: #fff;" text="Date">
+            <font>
+                <Font name="Cooper Black" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <ImageView fitHeight="138.0" fitWidth="200.0" layoutX="429.0" layoutY="299.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../FruitsPic/str_bry.jpg" />
+            </image>
+        </ImageView>
+        <Button layoutX="429.0" layoutY="432.0" mnemonicParsing="false" onAction="#strByBtn" prefHeight="33.0" prefWidth="173.0" style="-fx-background-color: #fff;" text="Strawberry">
+            <font>
+                <Font name="Cooper Black" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="233.0" layoutY="432.0" mnemonicParsing="false" onAction="#G_AppleBtn" prefHeight="33.0" prefWidth="158.0" style="-fx-background-color: #fff;" text="Golden-Apple">
+            <font>
+                <Font name="Cooper Black" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <ImageView fitHeight="133.0" fitWidth="200.0" layoutX="609.0" layoutY="299.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../FruitsPic/date.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="133.0" fitWidth="200.0" layoutX="778.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../FruitsPic/grape.jpg" />
+            </image>
+        </ImageView>
+        <Button layoutX="822.0" layoutY="432.0" mnemonicParsing="false" onAction="#grpBtn" prefHeight="33.0" prefWidth="113.0" style="-fx-background-color: #fff;" text="Grape">
+            <font>
+                <Font name="Cooper Black" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <ImageView fitHeight="138.0" fitWidth="207.0" layoutX="15.0" layoutY="472.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../FruitsPic/Orange.jpg" />
+            </image>
+        </ImageView>
+        <Button layoutX="15.0" layoutY="652.0" mnemonicParsing="false" onAction="#backBtn" prefHeight="25.0" prefWidth="61.0" style="-fx-background-color: black;" text="Back" textFill="WHITE">
+            <font>
+                <Font name="Cooper Black" size="15.0" />
+            </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+        </Button>
+        <Button layoutX="52.0" layoutY="610.0" mnemonicParsing="false" onAction="#orangeBtn" prefHeight="33.0" prefWidth="104.0" style="-fx-background-color: #ffff;" text="Orange">
+            <font>
+                <Font name="Cooper Black" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <ImageView fitHeight="138.0" fitWidth="207.0" layoutX="208.0" layoutY="472.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../FruitsPic/Guava.jpg" />
+            </image>
+        </ImageView>
+        <Button layoutX="236.0" layoutY="610.0" mnemonicParsing="false" onAction="#guavaBtn" prefHeight="35.0" prefWidth="104.0" style="-fx-background-color: #fff;" text="Guava">
+            <font>
+                <Font name="Cooper Black" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <ImageView fitHeight="138.0" fitWidth="218.0" layoutX="369.0" layoutY="472.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../FruitsPic/Watermelon.jpg" />
+            </image>
+        </ImageView>
+        <Button layoutX="381.0" layoutY="609.0" mnemonicParsing="false" onAction="#WatermelonBtn" prefHeight="35.0" prefWidth="138.0" style="-fx-background-color: #fff;" text="Watermelon">
+            <font>
+                <Font name="Cooper Black" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <ImageView fitHeight="103.0" fitWidth="161.0" layoutX="563.0" layoutY="518.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../FruitsPic/ata.jpg" />
+            </image>
+        </ImageView>
+        <Button layoutX="571.0" layoutY="609.0" mnemonicParsing="false" onAction="#DalimBtn" prefHeight="35.0" prefWidth="153.0" style="-fx-background-color: #fff;" text="Pomegranate">
+            <font>
+                <Font name="Cooper Black" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <ImageView fitHeight="138.0" fitWidth="218.0" layoutX="753.0" layoutY="472.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../FruitsPic/anarosh.jpg" />
+            </image>
+        </ImageView>
+        <Button layoutX="763.0" layoutY="610.0" mnemonicParsing="false" onAction="#pineBtn" prefHeight="35.0" prefWidth="119.0" style="-fx-background-color: #fff;" text="Pineapple">
+            <font>
+                <Font name="Cooper Black" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="948.0" layoutY="652.0" mnemonicParsing="false" onAction="#exitBtn" prefHeight="25.0" prefWidth="61.0" style="-fx-background-color: black;" text="Exit" textFill="WHITE">
+            <font>
+                <Font name="Cooper Black" size="15.0" />
+            </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+        </Button>
+        <ImageView fitHeight="93.0" fitWidth="119.0" layoutX="907.0" layoutY="508.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../FruitsPic/boroy.jpg" />
+            </image>
+        </ImageView>
+        <Button layoutX="922.0" layoutY="609.0" mnemonicParsing="false" onAction="#plumBtn" prefHeight="35.0" prefWidth="88.0" style="-fx-background-color: #fff;" text="Plum">
+            <font>
+                <Font name="Cooper Black" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+    </children>
+    <cursor>
+        <Cursor fx:constant="DEFAULT" />
+    </cursor>
+</AnchorPane>

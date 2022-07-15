@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="344.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="education.learning.system.CongratulationPageController">
+   <children>
+      <ImageView fitHeight="402.0" fitWidth="717.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/cngrs.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="291.0" layoutY="321.0" mnemonicParsing="false" onAction="#goToLoginPageBtn" style="-fx-background-color: transparent transparent;" text="Go to login page!" textFill="#0d00ff">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="77.0" layoutY="262.0" prefHeight="17.0" prefWidth="563.0" text="You are sign in successfully! Now go to login page and log in." textFill="#0d00ff">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

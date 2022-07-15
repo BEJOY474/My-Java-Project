@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="455.0" prefWidth="598.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="education.learning.system.ABCGameController">
+   <children>
+      <ImageView fitHeight="624.0" fitWidth="920.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AllLogo/gmaeImage.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="408.0" layoutY="575.0" mnemonicParsing="false" onAction="#resultBtn" style="-fx-background-color: transparenttransparent transparenttransparent;" text="Result" textFill="#fffafa">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="387.0" layoutY="-9.0" text="A B C Game">
+         <font>
+            <Font name="Party LET Plain" size="56.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="10.0" layoutY="82.0" prefHeight="105.0" prefWidth="110.0" text="A">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </Label>
+      <TextField fx:id="bTexrField" alignment="BASELINE_CENTER" layoutX="113.0" layoutY="50.0" prefHeight="131.0" prefWidth="147.0" style="-fx-background-color: transparenttransparent transparenttransparent transparenttransparent transparenttransparent; -fx-border-color: #0596ff #0596ff; -fx-border-width: 0px 0px 2px 0px;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="252.0" layoutY="82.0" prefHeight="105.0" prefWidth="110.0" text="C" textFill="#6d00ff">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </Label>
+      <TextField fx:id="dTextField" alignment="BASELINE_CENTER" layoutX="355.0" layoutY="50.0" prefHeight="131.0" prefWidth="147.0" style="-fx-background-color: transparenttransparent transparenttransparent transparenttransparent transparenttransparent; -fx-border-color: #0596ff #0596ff; -fx-border-width: 0px 0px 2px 0px;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="eTextField" alignment="BASELINE_CENTER" layoutX="513.0" layoutY="50.0" prefHeight="131.0" prefWidth="147.0" style="-fx-background-color: transparenttransparent transparenttransparent transparenttransparent transparenttransparent; -fx-border-color: #0596ff #0596ff; -fx-border-width: 0px 0px 2px 0px;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="655.0" layoutY="76.0" prefHeight="105.0" prefWidth="110.0" text="F" textFill="RED">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </Label>
+      <TextField fx:id="gTextField" alignment="BASELINE_CENTER" layoutX="765.0" layoutY="50.0" prefHeight="131.0" prefWidth="147.0" style="-fx-background-color: transparenttransparent transparenttransparent transparenttransparent transparenttransparent; -fx-border-color: #0596ff #0596ff; -fx-border-width: 0px 0px 2px 0px;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="13.0" layoutY="219.0" prefHeight="105.0" prefWidth="110.0" text="H" textFill="BLUE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </Label>
+      <TextField fx:id="iTf" alignment="BASELINE_CENTER" layoutX="116.0" layoutY="187.0" prefHeight="131.0" prefWidth="147.0" style="-fx-background-color: transparenttransparent transparenttransparent transparenttransparent transparenttransparent; -fx-border-color: #0596ff #0596ff; -fx-border-width: 0px 0px 2px 0px;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="255.0" layoutY="219.0" prefHeight="105.0" prefWidth="110.0" text="J" textFill="#7d832b">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ktf" alignment="BASELINE_CENTER" layoutX="358.0" layoutY="187.0" prefHeight="131.0" prefWidth="147.0" style="-fx-background-color: transparenttransparent transparenttransparent transparenttransparent transparenttransparent; -fx-border-color: #0596ff #0596ff; -fx-border-width: 0px 0px 2px 0px;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="504.0" layoutY="219.0" prefHeight="105.0" prefWidth="110.0" text="L" textFill="#ff00de">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nTf" alignment="BASELINE_CENTER" layoutX="768.0" layoutY="187.0" prefHeight="131.0" prefWidth="147.0" style="-fx-background-color: transparenttransparent transparenttransparent transparenttransparent transparenttransparent; -fx-border-color: #0596ff #0596ff; -fx-border-width: 0px 0px 2px 0px;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="mTf" alignment="BASELINE_CENTER" layoutX="614.0" layoutY="187.0" prefHeight="131.0" prefWidth="147.0" style="-fx-background-color: transparenttransparent transparenttransparent transparenttransparent transparenttransparent; -fx-border-color: #0596ff #0596ff; -fx-border-width: 0px 0px 2px 0px;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="356.0" prefHeight="105.0" prefWidth="110.0" text="O">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </Label>
+      <TextField fx:id="pTf" alignment="BASELINE_CENTER" layoutX="117.0" layoutY="324.0" prefHeight="131.0" prefWidth="154.0" style="-fx-background-color: transparenttransparent transparenttransparent transparenttransparent transparenttransparent; -fx-border-color: yellow; -fx-border-width: 0px 0px 2px 0px;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="256.0" layoutY="356.0" prefHeight="105.0" prefWidth="110.0" text="Q" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </Label>
+      <TextField fx:id="rTf" alignment="BASELINE_CENTER" layoutX="359.0" layoutY="324.0" prefHeight="131.0" prefWidth="154.0" style="-fx-background-color: transparenttransparent transparenttransparent transparenttransparent transparenttransparent; -fx-border-color: yellow; -fx-border-width: 0px 0px 2px 0px;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="505.0" layoutY="356.0" prefHeight="105.0" prefWidth="110.0" text="S" textFill="ORANGE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tTf" alignment="BASELINE_CENTER" layoutX="615.0" layoutY="324.0" prefHeight="131.0" prefWidth="147.0" style="-fx-background-color: transparenttransparent transparenttransparent transparenttransparent transparenttransparent; -fx-border-color: yellow; -fx-border-width: 0px 0px 2px 0px;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="780.0" layoutY="356.0" prefHeight="105.0" prefWidth="110.0" text="U" textFill="#350fee">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </Label>
+      <TextField fx:id="vTf" alignment="BASELINE_CENTER" layoutX="21.0" layoutY="444.0" prefHeight="131.0" prefWidth="147.0" style="-fx-background-color: transparenttransparent transparenttransparent transparenttransparent transparenttransparent; -fx-border-color: yellow; -fx-border-width: 0px 0px 2px 0px;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="183.0" layoutY="476.0" prefHeight="105.0" prefWidth="110.0" text="W" textFill="#afff01">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </Label>
+      <TextField alignment="BASELINE_CENTER" layoutX="367.0" layoutY="438.0" prefHeight="131.0" prefWidth="147.0" style="-fx-background-color: transparenttransparent transparenttransparent transparenttransparent transparenttransparent; -fx-border-color: yellow; -fx-border-width: 0px 0px 2px 0px;" fx:id="xTf">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="513.0" layoutY="470.0" prefHeight="105.0" prefWidth="110.0" text="Y">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ZTf" alignment="BASELINE_CENTER" layoutX="623.0" layoutY="438.0" prefHeight="131.0" prefWidth="147.0" style="-fx-background-color: transparenttransparent transparenttransparent transparenttransparent transparenttransparent; -fx-border-color: yellow; -fx-border-width: 0px 0px 2px 0px;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="70.0" />
+         </font>
+      </TextField>
+      <Label fx:id="worningDisplay" alignment="CENTER" layoutX="50.0" layoutY="29.0" prefHeight="17.0" prefWidth="260.0" textFill="RED">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="194.0" layoutY="575.0" mnemonicParsing="false" onAction="#backBtn" style="-fx-background-color: transparenttransparent transparenttransparent;" text="Back" textFill="#fffafa">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="639.0" layoutY="575.0" mnemonicParsing="false" onAction="#menuBtn" style="-fx-background-color: transparenttransparent transparenttransparent;" text="Menu" textFill="#fffafa">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
